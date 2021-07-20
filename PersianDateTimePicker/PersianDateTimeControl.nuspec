@@ -8,9 +8,15 @@
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/Bijan14093/PersianDateTimePicker.git</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>.net faramework userControl for datetime picker</description>
-    <releaseNotes>.net faramework userControl for datetime picker</releaseNotes>
+    <description>
+		Date and time picker for Persian language.
+		This product has three controls, one for selecting the date, one for selecting the time and one for selecting both the date and time.
+		Each control has two important attributes. One of these attributes(attribute:VALUE) displays the date in DateTime and one in Persian(attribute:TEXT).
+	</description>
+    <releaseNotes>
+		In this version, the simplest possible format is considered.
+	</releaseNotes>
     <copyright>Copyright 2021</copyright>
-    <tags>PersianDate PersianDatePicker PersianTimePicker PersianDateTimePicker JalaliDateTimePicker DateTimePicker Persian  ShamsiDatePicker Shamsi ShamsiTimePicker</tags>
+    <tags>PersianDate PersianDatePicker PersianTimePicker PersianDateTimePicker JalaliDateTimePicker DateTimePicker DatePicker Persian  ShamsiDatePicker Shamsi ShamsiTimePicker</tags>
   </metadata>
 </package>
