@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PersianDateTimeControl</id>
+    <version>1.0.0</version>
+    <authors>Bijan Ghasemi</authors>
+    <owners>Bijan Ghasemi</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/Bijan14093/PersianDateTimePicker.git</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.net faramework userControl for datetime picker</description>
+    <releaseNotes>.net faramework userControl for datetime picker</releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>PersianDate PersianDatePicker PersianTimePicker PersianDateTimePicker JalaliDateTimePicker DateTimePicker Persian  ShamsiDatePicker Shamsi ShamsiTimePicker</tags>
+  </metadata>
+</package>

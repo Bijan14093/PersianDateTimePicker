@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersianDateTimePickerTester", "PersianDateTimePickerTester\PersianDateTimePickerTester.csproj", "{6E9E1CCB-B054-4A79-A097-096C34A5E799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersianDateTimeControl", "PersianDateTimePicker\PersianDateTimeControl.csproj", "{B9875BBD-C34C-4BE8-B7BD-2C650637348E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E9E1CCB-B054-4A79-A097-096C34A5E799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9E1CCB-B054-4A79-A097-096C34A5E799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9E1CCB-B054-4A79-A097-096C34A5E799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9E1CCB-B054-4A79-A097-096C34A5E799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9875BBD-C34C-4BE8-B7BD-2C650637348E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9875BBD-C34C-4BE8-B7BD-2C650637348E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9875BBD-C34C-4BE8-B7BD-2C650637348E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9875BBD-C34C-4BE8-B7BD-2C650637348E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15429676-E28D-40DC-BF2A-5F8444261A8F}
+	EndGlobalSection
+EndGlobal
