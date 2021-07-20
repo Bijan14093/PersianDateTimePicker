@@ -1,0 +1,11 @@
+E:\Git\PersianDateTimePicker\PersianDateTimePicker\obj\Debug\PersianDateTimePicker.PersianDateTimePicker.resources
+E:\Git\PersianDateTimePicker\PersianDateTimePicker\obj\Debug\PersianDateTimePicker.frmSelectDate.resources
+E:\Git\PersianDateTimePicker\PersianDateTimePicker\obj\Debug\PersianDateTimePicker.PersianDatePicker.resources
+E:\Git\PersianDateTimePicker\PersianDateTimePicker\obj\Debug\PersianDateTimePicker.Properties.Resources.resources
+E:\Git\PersianDateTimePicker\PersianDateTimePicker\obj\Debug\PersianDateTimePicker.PersianTimPicker.resources
+E:\Git\PersianDateTimePicker\PersianDateTimePicker\obj\Debug\PersianDateTimeContorl.csproj.GenerateResource.cache
+E:\Git\PersianDateTimePicker\PersianDateTimePicker\obj\Debug\PersianDateTimeContorl.csproj.CoreCompileInputs.cache
+E:\Git\PersianDateTimePicker\PersianDateTimePicker\obj\Debug\PersianDateTimePicker.dll
+E:\Git\PersianDateTimePicker\PersianDateTimePicker\obj\Debug\PersianDateTimePicker.pdb
+E:\Git\PersianDateTimePicker\PersianDateTimePicker\bin\Debug\PersianDateTimePicker.dll
+E:\Git\PersianDateTimePicker\PersianDateTimePicker\bin\Debug\PersianDateTimePicker.pdb
