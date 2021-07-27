@@ -16,7 +16,6 @@ namespace PersianDateTimeControl
         private DateTime? ReturnDate;
         private int m_Day, m_Month, m_Year;  //Current SelectedDate
         private PersianDate persianNow;  //Current Date
-        private string[] allFormats = { "yyyy/MM/dd", "yyyy/M/d", "dd/MM/yyyy", "d/M/yyyy", "dd/M/yyyy", "d/MM/yyyy", "yyyy-MM-dd", "yyyy-M-d", "dd-MM-yyyy", "d-M-yyyy", "dd-M-yyyy", "d-MM-yyyy", "yyyy MM dd", "yyyy M d", "dd MM yyyy", "d M yyyy", "dd M yyyy", "d MM yyyy" };
         private DateTime FirstDayofMonth;
         private DayOfWeek iDayOfWeek;
         public frmSelectDate()
@@ -127,7 +126,7 @@ namespace PersianDateTimeControl
             //First Day Of Month
             StringBuilder HFirstDay = new StringBuilder();
             HFirstDay.AppendFormat("{0}/{1}/1", m_Year, m_Month);
-            FirstDayofMonth = DateTime.ParseExact(HFirstDay.ToString(), allFormats, Utility.CultureInfo.DateTimeFormat, DateTimeStyles.AllowWhiteSpaces);
+            FirstDayofMonth = Utility.GetDateTime(HFirstDay.ToString());
             iDayOfWeek = FirstDayofMonth.DayOfWeek;
 
             Dictionary<int, KeyValuePair<int, int>> FirstSevenDays = GenerateFirstSevenDaysPosition(m_Year, m_Month);

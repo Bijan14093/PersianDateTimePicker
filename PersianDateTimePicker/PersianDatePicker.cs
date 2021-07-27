@@ -19,7 +19,6 @@ namespace PersianDateTimeControl
         public PersianDatePicker()
         {
             InitializeComponent();
-            Utility.CultureInfo.DateTimeFormat.Calendar = Utility.PersianCalendar;
         }
         #region Public memebers
         public DateTime? Value

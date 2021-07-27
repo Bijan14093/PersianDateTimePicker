@@ -98,18 +98,13 @@
     <EmbeddedResource Include="PersianDatePicker.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="PersianDateTimePicker.bmp" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="PersianTimPicker.bmp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="PersianDateTimeControl.nuspec" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PersianDateTimeControl.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <EmbeddedResource Include="PersianDateTimePicker.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

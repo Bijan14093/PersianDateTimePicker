@@ -111,7 +111,7 @@ namespace PersianDateTimeControl
             this.sep2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.sep2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.sep2.Enabled = false;
-            this.sep2.Location = new System.Drawing.Point(33, 3);
+            this.sep2.Location = new System.Drawing.Point(34, 3);
             this.sep2.Margin = new System.Windows.Forms.Padding(0);
             this.sep2.Multiline = true;
             this.sep2.Name = "sep2";

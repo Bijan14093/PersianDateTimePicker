@@ -42,11 +42,11 @@ namespace PersianDateTimeControlTester
             this.label5 = new System.Windows.Forms.Label();
             this.persianTimPicker1 = new PersianDateTimeControl.PersianTimPicker();
             this.persianDatePicker1 = new PersianDateTimeControl.PersianDatePicker();
-            this.persianDateTimePicker1 = new PersianDateTimeControl.PersianDateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.txtDateTimechangedtext = new System.Windows.Forms.TextBox();
             this.txtDateTimechangedvalue = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.persianDateTimePicker1 = new PersianDateTimeControl.PersianDateTimePicker();
             this.SuspendLayout();
             // 
             // txtDateChangeF
@@ -145,17 +145,6 @@ namespace PersianDateTimeControlTester
             this.persianDatePicker1.DateChanged += new PersianDateTimeControl.PersianDatePicker.DateChangedEvent(this.persianDatePicker1_DateChanged_2);
             this.persianDatePicker1.Leave += new System.EventHandler(this.persianDatePicker1_Leave_2);
             // 
-            // persianDateTimePicker1
-            // 
-            this.persianDateTimePicker1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.persianDateTimePicker1.Location = new System.Drawing.Point(4, 144);
-            this.persianDateTimePicker1.MaximumSize = new System.Drawing.Size(148, 19);
-            this.persianDateTimePicker1.MinimumSize = new System.Drawing.Size(148, 19);
-            this.persianDateTimePicker1.Name = "persianDateTimePicker1";
-            this.persianDateTimePicker1.Size = new System.Drawing.Size(148, 19);
-            this.persianDateTimePicker1.TabIndex = 13;
-            this.persianDateTimePicker1.DateTimeChanged += new PersianDateTimeControl.PersianDateTimePicker.DateTimeChangedEvent(this.persianDateTimePicker1_DateTimeChanged);
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -188,16 +177,27 @@ namespace PersianDateTimeControlTester
             this.label3.TabIndex = 17;
             this.label3.Text = resources.GetString("label3.Text");
             // 
+            // persianDateTimePicker1
+            // 
+            this.persianDateTimePicker1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.persianDateTimePicker1.Location = new System.Drawing.Point(12, 144);
+            this.persianDateTimePicker1.MaximumSize = new System.Drawing.Size(148, 19);
+            this.persianDateTimePicker1.MinimumSize = new System.Drawing.Size(148, 19);
+            this.persianDateTimePicker1.Name = "persianDateTimePicker1";
+            this.persianDateTimePicker1.Size = new System.Drawing.Size(148, 19);
+            this.persianDateTimePicker1.TabIndex = 18;
+            this.persianDateTimePicker1.DateTimeChanged += new PersianDateTimeControl.PersianDateTimePicker.DateTimeChangedEvent(this.persianDateTimePicker1_DateTimeChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(623, 205);
+            this.Controls.Add(this.persianDateTimePicker1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtDateTimechangedvalue);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtDateTimechangedtext);
-            this.Controls.Add(this.persianDateTimePicker1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtTime);
@@ -231,11 +231,11 @@ namespace PersianDateTimeControlTester
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtTime;
         private System.Windows.Forms.Label label5;
-        private PersianDateTimePicker persianDateTimePicker1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtDateTimechangedtext;
         private System.Windows.Forms.TextBox txtDateTimechangedvalue;
         private System.Windows.Forms.Label label3;
+        private PersianDateTimePicker persianDateTimePicker1;
     }
 }
 

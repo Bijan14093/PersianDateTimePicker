@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>PersianDateTimeControl</id>
-    <version>1.0.0</version>
+    <version>2.0.0</version>
     <authors>Bijan Ghasemi</authors>
     <owners>Bijan Ghasemi</owners>
     <license type="expression">MIT</license>
@@ -12,9 +12,15 @@
 		Date and time picker for Persian language.
 		This product has three controls, one for selecting the date, one for selecting the time and one for selecting both the date and time.
 		Each control has two important attributes. One of these attributes(attribute:VALUE) displays the date in DateTime and one in Persian(attribute:TEXT).
+		In date and time control: DatePicker property gives you Date control  and TimePicker property gives you time control.
+		
+		persianDateTimePicker1.DatePicker.Value = DateTime.Now;
+		persianDateTimePicker1.TimPicker.Value = DateTime.Now.ToString("hh:mm:ss");
+		
+		https://github.com/Bijan14093/PersianDateTimePicker.git
 	</description>
     <releaseNotes>
-		In this version, the simplest possible format is considered.
+		Fix Bug: not a valid calendar for the given culture.parameter name: value
 	</releaseNotes>
     <copyright>Copyright 2021</copyright>
     <tags>PersianDate PersianDatePicker PersianTimePicker PersianDateTimePicker JalaliDateTimePicker DateTimePicker DatePicker Persian  ShamsiDatePicker Shamsi ShamsiTimePicker</tags>
