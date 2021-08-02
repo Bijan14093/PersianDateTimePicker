@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>PersianDateTimeControl</id>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <authors>Bijan Ghasemi</authors>
     <owners>Bijan Ghasemi</owners>
     <license type="expression">MIT</license>
@@ -21,8 +21,9 @@
 	</description>
     <releaseNotes>
 		Fix Bug: not a valid calendar for the given culture.parameter name: value
+		Fix Bug: Prevent the entry of some invalid dates.
 	</releaseNotes>
     <copyright>Copyright 2021</copyright>
-    <tags>PersianDate PersianDatePicker PersianTimePicker PersianDateTimePicker JalaliDateTimePicker DateTimePicker DatePicker Persian  ShamsiDatePicker Shamsi ShamsiTimePicker</tags>
+    <tags>PersianDate PersianDatePicker PersianTimePicker PersianDateTimePicker JalaliDateTimePicker DateTimePicker DatePicker Persian  ShamsiDatePicker Shamsi ShamsiTimePicker WindowsForm</tags>
   </metadata>
 </package>
