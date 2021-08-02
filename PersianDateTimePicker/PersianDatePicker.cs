@@ -415,6 +415,14 @@ namespace PersianDateTimeControl
             {
                 return false;
             }
+            if (this.Text != "" & this.Value==null)
+            {
+                if (ShowMessage)
+                {
+                    MessageBox.Show("مقدار تاريخ معتبر نيست");
+                }
+                return false;
+            }
             return true;
 
         }
