@@ -23,14 +23,11 @@ for example :
  
             pdtpFrom.DatePicker.Value = DateTime.Now;
             pdtpFrom.TimPicker.Value = DateTime.Now.ToString("HH:MM:ss");
-            
  you can set time like
  
             pdtpFrom.TimPicker.Value = "00:00:00";
             pdtpTo.TimPicker.Value = "23:59:59";
-
 for get value from control
 
                 var FromDate = pdtpFrom.Value.ToString(); // Gregorian Date
                 var PersianFromDate = pdtpFrom.Text; //Persian Date
-                
