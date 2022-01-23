@@ -17,7 +17,14 @@ After installation, you will see three controls in the toolbox in visual studio 
 drag one of control that you need.
 
 for example :
-
- I drag PersianDateTimePicker.
+ I drag PersianDateTimePicker and rename it to pdtpFrom.
+ 
+ if you want to set control to current date.
+ 
+            pdtpFrom.DatePicker.Value = DateTime.Now;
+            pdtpFrom.TimPicker.Value = DateTime.Now.ToString("HH:MM:ss");
+            
+            
+ 
 
 
