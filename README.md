@@ -24,8 +24,6 @@ for example :
             pdtpFrom.DatePicker.Value = DateTime.Now;
             pdtpFrom.TimPicker.Value = DateTime.Now.ToString("HH:MM:ss");
             
-            
- 
  you can set time like
  
             pdtpFrom.TimPicker.Value = "00:00:00";
